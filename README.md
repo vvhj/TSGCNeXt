@@ -91,6 +91,10 @@ python ensemble.py --dataset ntu120/xset \
 - Download pretrained models for producing the final results on NTU RGB+D 60&120 [[Google Drive]](https://drive.google.com/file/d/1FNJUkvGcmEvyqP93SsIV-PnppA4LBdyA/view?usp=share_link).
 - Put files to <work_dir> and run **Testing** command to produce the final result.
 
+### Cite
+This code is for paper "TSGCNeXt: Dynamic-Static Multi-Graph Convolution for Efficient Skeleton-Based Action Recognition with Long-term Learning Potential".
+这个工作拖的实在是太旧了，结果很棒，但是咱写论文水平有点感人，哈哈，先开源了，大家先看看，希望能对之后的工作有所帮助，arxiv的连接近期放出，求大佬引用^v^
+
 
 
 
