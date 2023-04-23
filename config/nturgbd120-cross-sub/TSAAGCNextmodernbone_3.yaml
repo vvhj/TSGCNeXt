@@ -1,0 +1,57 @@
+work_dir: ./newwork_dir/ntu120/xsub/TSAAGCNext3_bonemodern_2card
+#output_dir: ./newwork_dir/ntu120/xsub/TSGCNext_bonemodern
+# feeder
+feeder: feeders.feeder_ntu.Feeder
+train_feeder_args:
+  data_path: data/ntu120/NTU120_CSub.npz
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 256
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: True
+
+test_feeder_args:
+  data_path: data/ntu120/NTU120_CSub.npz
+  split: test
+  window_size: 256
+  p_interval: [0.95]
+  vel: False
+  bone: True
+  debug: False
+
+# model
+model: model.tsaagcnext_3.Model
+model_args:
+  num_class: 120
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+  drop_out: 0.4
+
+
+
+batch_size: 32
+test_batch_size: 32
+
+nesterov: True
+#warmup_epochs: 10
+#epochs: 100
+# weight_decay: 0.0004
+# base_lr: 0.1
+# warm_up_epoch: 5
+
+# training
+# device: [0,1,2,3]
+# batch_size: 64
+# test_batch_size: 64
+# num_epoch: 90
+# nesterov: True
+
