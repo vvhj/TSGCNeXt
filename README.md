@@ -93,7 +93,11 @@ python ensemble.py --dataset ntu120/xset \
 
 ### Cite
 This code is for paper "TSGCNeXt: Dynamic-Static Multi-Graph Convolution for Efficient Skeleton-Based Action Recognition with Long-term Learning Potential".
-这个工作拖的实在是太旧了，结果很棒，但是咱写论文水平有点感人，哈哈，先开源了，大家先看看，希望能对之后的工作有所帮助，arxiv的连接近期放出，求大佬引用^v^
+
+You can get paper here: https://arxiv.org/abs/2304.11631
+
+PS:这个工作拖的实在是太久了，结果很棒，但是咱写论文水平有点感人，哈哈，先开源了，大家先看看，希望能对之后的工作有所帮助。
+
 
 
 
