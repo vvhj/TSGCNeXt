@@ -112,3 +112,6 @@ PS:这个工作拖的实在是太久了，结果很棒，但是咱写论文水�
 
 <img width="150" src="src/wechat.jpg?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_30,g_se,x_10,y_10,shadow_20,type_ZmFuZ3poZW5naGVpdGk="/>
 
+### 正在工作
+
+1在新的大规模训练集kinect上进行训练中，尽请期待新代码和模型权重
