@@ -108,6 +108,7 @@ PS:这个工作拖的实在是太久了，结果很棒，但是咱写论文水�
 先把完整版本开放给大家吧！训练的策略跟之前的工作确实有些不一样，不过大家可以借鉴一下，应该能给这个任务带来很大的提升！
 
 如果您有疑问的话也可以加我的微信一起探讨，一起学习！
-![image](src/wechat.jpg =100x100)
-<img width="150" height="150" src="src/wechat.jpg?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_30,g_se,x_10,y_10,shadow_20,type_ZmFuZ3poZW5naGVpdGk="/>
+
+
+<img width="150" src="src/wechat.jpg?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_30,g_se,x_10,y_10,shadow_20,type_ZmFuZ3poZW5naGVpdGk="/>
 
