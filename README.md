@@ -1,4 +1,4 @@
-# TSGCNEXT TEST
+# TSGCNEXT 
 
 
 ## Architecture of CTR-GC
