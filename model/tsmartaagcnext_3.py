@@ -139,8 +139,11 @@ class TSGCNext_unit(nn.Module):
         x = x.reshape(N,T,V,-1,4)
         x1 = x[:,:,:,:,0:3]
         x2 = x[:,:,:,:,3:4]
-        Ak = torch.unsqueeze(A,dim=0).repeat_interleave(N, dim=0)#.permute(0, 3, 2, 1).contiguous().view(-1,V,3)
-        x1 = torch.einsum('niuk,ntkci->ntuci', Ak,x1)
+        if self.training:
+            Ak = torch.unsqueeze(A,dim=0).repeat_interleave(N, dim=0)#.permute(0, 3, 2, 1).contiguous().view(-1,V,3)
+            x1 = torch.einsum('niuk,ntkci->ntuci', Ak,x1)
+        else:
+            x1 = torch.einsum('iuk,ntkci->ntuci', A,x1)
         #x1 = torch.einsum('kuv,ntvck->ntuck', A,x1)
         x = torch.cat([x1,x2],dim=-1)
         x = x.reshape(N,T,V,C4)
