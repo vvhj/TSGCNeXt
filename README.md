@@ -1,7 +1,7 @@
 # TSGCNEXT 
 
 
-## Architecture of CTR-GC
+## Architecture of TSGCNeXt
 ![image](src/framework.jpg)
 # Prerequisites
 
