@@ -1,0 +1,43 @@
+work_dir: ./newwork_dir/ntu60hrnet/xview252/TSGCNext3_jointmodern
+
+feeder: feeders.feeder_ntu.Feeder
+train_feeder_args:
+  data_path: data/HRNet/NTU60_CV.npz
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 256
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: True
+
+test_feeder_args:
+  data_path: data/HRNet/NTU60_CV.npz
+  split: test
+  window_size: 256
+  p_interval: [0.95]
+  vel: False
+  bone: True
+  debug: False
+
+# model
+model: model.tsmartaagcnext_3.Model
+model_args:
+  num_class: 60
+  num_point: 17
+  num_person: 2
+  graph: graph.coco.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+  drop_out: 0.4
+
+
+
+batch_size: 32
+test_batch_size: 32
+
+nesterov: True
