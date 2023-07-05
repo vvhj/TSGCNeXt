@@ -101,31 +101,13 @@ This code is for paper "TSGCNeXt: Dynamic-Static Multi-Graph Convolution for Eff
 
 You can get paper here: https://arxiv.org/abs/2304.11631
 
-PS:这个工作拖的实在是太久了，结果很棒，但是咱写论文水平有点感人，哈哈，先开源了，大家先看看，希望能对之后的工作有所帮助。
-
-冲击ICCV应该失败了，再挣扎rebuttal一下，还是水平不够呀，继续加油，新版的论文吸取意见后在近期放出！
-
-先把完整版本开放给大家吧！训练的策略跟之前的工作确实有些不一样，不过大家可以借鉴一下，应该能给这个任务带来很大的提升！
+PS:
 
 如果您有疑问的话也可以加我的微信一起探讨，一起学习！
 
 
 <img width="150" src="src/wechat.jpg?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_30,g_se,x_10,y_10,shadow_20,type_ZmFuZ3poZW5naGVpdGk="/>
 
-### 正在工作
+### 最新进展 
 
-acceleration strategy 已更新
-
-1 在新的大规模训练集kinect上进行训练中，敬请期待新代码和模型权重
-
-目前进展，epoch200，openpose标记设置下，4:3:2配置下单流ACC1 34.592848143593955% ACC5: 57.10749793153841%，2:5:2配置未训练完成但是精度更好，ACC1 35.43645300935509%,  ACC5 58.26429732194162%
-
-2 TSGCNEXTv2有了最新进展，力图用更少的流获得更好的性能
-
-目前进展，新架构验证代码已完成，但是创新点不太够，正在引入新的学习机制
-
-3 在多流融合中测试6流或者8流的融合结果，以探索精度极限
-
-4 在小规模数据集ucla上开展进一步的参数调整
-
-5 新版论文撰写完成，近期更新
+论文投稿限制，最新版论文先不放出了，更新一些实验和分析结果。
