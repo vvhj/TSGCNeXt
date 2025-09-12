@@ -101,6 +101,22 @@ This code is for paper "TSGCNeXt: Dynamic-Static Multi-Graph Convolution for Eff
 
 You can get paper here: https://arxiv.org/abs/2304.11631
 
+New cite is updata: 
+```
+@article{LIU2025127081,
+title = {TSGCNeXt: Dynamic-Static Multi-graph Convolution for efficient skeleton-based action recognition},
+journal = {Expert Systems with Applications},
+volume = {276},
+pages = {127081},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2025.127081},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417425007031},
+author = {Dongjingdian Liu and Xiaomeng Li and Zijie Cai and Pengpeng Chen},
+keywords = {Activity recognition, Graph convolution neural networks, Dynamic graph convolution, Skeleton-based action recognition, Training acceleration},
+abstract = {With the advancement of graph convolutional networks (GCNs), skeleton-based action recognition has made significant progress in human action recognition. Recent methods tend to adopt dynamic graph learning mechanisms, which suffer from sparse graph relations as network depth increases, leading to the loss of joint information. Furthermore, increasingly complex graph learning mechanisms face challenges due to ineffective training caused by non-parallel, combinatorial operations. Meanwhile, skeletal sequences are often downsampled, resulting in the loss of fine-grained details. To address these issues, we propose Temporal-Spatio Graph ConvNeXt (TSGCNeXt), an efficient learning framework designed to preserve fine-grained skeletal sequence information. First, we introduce Dynamic-Static Separate Multi-graph Convolution (DS-SMG), which aggregates features from multiple independent static and dynamic graphs within a parallel topological computational structure. This structure ensures that static branches, which exclude the Laplace operator, prevent joint information from being ignored during dynamic graph learning. Furthermore, we propose a graph convolution training acceleration mechanism that optimizes backpropagation for the parallel topological structure, resulting in a 55.08% speedup in training efficiency. By combining these innovations, TSGCNeXt restructures the overall GCN architecture and integrates spatiotemporal learning modules that efficiently process fine-grained features. Compared to existing methods, TSGCNeXt outperforms single-stream network approaches. Additionally, by incorporating the exponential moving average model into multi-stream fusion, TSGCNeXt achieves state-of-the-art performance. The code is available at https://github.com/vvhj/TSGCNeXt.}
+}
+```
 PS:
 
 如果您有疑问的话也可以加我的微信一起探讨，一起学习！
